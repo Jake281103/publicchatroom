@@ -137,7 +137,23 @@ import "@fortawesome/fontawesome-free/css/all.css";
 
 => Deploy on Cloud Server
 
-1. Repo public to Github
+1. you project need Repo public/private to Github
+
+2. signin your acocunt to https://render.com/
+
+3. Prepare the build output
+    your project must builded and typically located in the "dist" directory
+
+4. Create a new static site
+  click > "New + " > "Static Site" > Github > choose your acc > choose your repo > clcik connect
+
+5. Name: publicchatroom
+   Branch: main
+   Build Command: npm run build (React, Vue, vite, etc... ), ng build ( Angular )
+   Publish Directory: dist
+   
+
+6. Environment Variables = copy paste .evn data to Environment Variables
 
 
 
