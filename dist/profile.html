@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+
+   <!-- include auth check  -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <script type="module" crossorigin src="/assets/profile-Ci6goeN5.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/authorize-CvEEiaJL.js">
+    <link rel="modulepreload" crossorigin href="/assets/authcheck-DCMuRTzQ.js">
+    <link rel="stylesheet" crossorigin href="/assets/main-BUYruH8m.css">
+  </head>
+
+  <body class="h-screen bg-gray-100 flex justify-center items-center mt-12">
+    <div class="w-full max-w-md shadow-md rounded-md p-6">
+      <h6 class="text-lg mb-4">Profile Page</h6>
+
+      <div id="userinfo" class="text-sm space-y-4">
+        <img
+          src="https://static.thenounproject.com/png/65476-200.png"
+          width="80"
+          alt="porfile icon"
+        />
+
+        <p>UID : 0123254788</p>
+        <p>Display Name : Kyaw Kyaw</p>
+        <p>Email : kyaw@gmail.com</p>
+        <p>Created At : 2 June 2024</p>
+      </div>
+      <div class="flex justify-end">
+        <a href="./index.html" class=" bg-slate-500 text-white text-sm rounded-md hover:bg-slate-700 px-4 py-2 mr-2">Chatroom</a>
+        <button
+          type="submit"
+          id="logoutbtn"
+          class="bg-blue-600 text-white text-sm rounded-md hover:bg-blue-700 focus:outline-none px-4 py-2"
+        >
+          Logout
+        </button>
+      </div>
+    </div>
+  </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/date-fns@3.6.0/cdn.min.js"></script>
+</html>
